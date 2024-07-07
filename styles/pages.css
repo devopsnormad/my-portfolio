@@ -129,6 +129,27 @@ form .submit:hover{
   color: #9a99ff;
 }
 
+/* Tablet view (up to 1024px) */
+@media (max-width: 1024px) {
+  .form-box {
+    padding: 15px;
+    margin-top: 25px;
+  }
+
+  .form-control {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  input {
+    height: 55px;
+  }
+
+  form .submit {
+    width: 100%;
+    padding: 8px 25px;
+  }
+}
 
 /* Small screens (mobile) */
 @media (max-width: 768px) {
@@ -167,5 +188,25 @@ form .submit:hover{
   display: block;
   width: 100%;
   text-align: center;
+}
+
+/* contact form */
+.form-box {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.form-control {
+  width: 100%;
+  font-size: 16px;
+}
+
+input {
+  height: 50px;
+}
+
+form .submit {
+  width: 100%;
+  padding: 10px;
 }
 }

@@ -129,6 +129,17 @@ tr:last-child td {
     border-right: none; 
 }
 
+@media (max-width: 1024px) {
+    #contactTable tr {
+        width: 100%;
+    }
+
+    #contactTable td {
+        padding: 20px;
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 768px) {
    
     .btn-view{
@@ -139,4 +150,27 @@ tr:last-child td {
    .btn-projects{
     width: 100%;
    }
+
+   #contactTable tr {
+    flex-direction: column;
+    width: 100%;
+}
+
+#contactTable td {
+    width: 100%;
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid rgb(110, 106, 106);
+    font-size: 14px;
+    text-align: center;
+}
+
+#contactTable td:first-child {
+    border-top: none;
+}
+
+#contactTable td:last-child {
+    border-bottom: 1px solid rgb(110, 106, 106);
+}
 }

@@ -1,135 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - Emmanuel</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/main.css" />
-    <link rel="stylesheet" href="/styles/table.css" />
-    <link rel="stylesheet" href="/styles/pages.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="line-numbers">
-        <pre>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28</pre>
-      </div>
-      <div class="content-wrapper">
-        <header>
-          <div class="logo">
-            <span>// Emmanuel</span>
-            <span class="second-logo">Frontend Dev</span>
-          </div>
-          <nav>
-            <div class="hamburger">
-              <div></div>
-              <div></div>
-              <div></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Emmanuel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/reset.css" />
+  <link rel="stylesheet" href="/styles/main.css" />
+  <link rel="stylesheet" href="/styles/table.css" />
+  <link rel="stylesheet" href="/styles/pages.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="line-numbers">
+      <pre>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28</pre>
+    </div>
+    <div class="content-wrapper">
+      <header>
+        <nav>
+          <li class='logo'><a href='#'>
+            <div class="logo">
+              <span class="first-logo">// Emmanuel</span>
+              <span class="second-logo">Frontend Dev</span>
             </div>
-            <ul>
+          </a></li>
+          <ul class='nav-bar'>
+            <input type='checkbox' id='check' />
+            <span class="menu">
               <li><a href="/index.html">_home</a></li>
               <li><a href="/pages/about.html">_about</a></li>
               <li><a href="/pages/projects.html">_portfolio</a></li>
               <li><a href="/pages/resume.html">_resume</a></li>
               <li><a href="/pages/services.html">_services</a></li>
               <li><a href="/pages/contact.html">_contact</a></li>
-            </ul>
-          </nav>
-        </header>
+              <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+          </ul>
+        </nav>
+      </header>
 
-        <main>
-          <section class="content section">
-            <h1>
-              <span
-                class="txt-rotate text-aqua"
-                data-period="1200"
-                data-rotate='[ "&#123; _about &#125;" ]'
-              ></span>
-              <span class="slash">|</span>
-            </h1>
-            <p class="about-paragraph">
-              .....Hi, I'm Emmanuel, a passionate front-end developer with 2
-              years experience in building beautiful and functional websites and
-              frontend applications using modern frontend tools.
-            </p>
-            <!-- Skills -->
-            <span class="sub-title text-aqua"
-              >&lt; what drives my work &gt;</span
-            >
-            <table>
-              <tr>
-                <td class="skills-content">
-                  <div class="text-job">
-                    <div class="skill-title">_teamwork</div>
-                    Building responsive and interactive websites using modern
-                    technologies like HTML, CSS, and JavaScript.
-                  </div>
-                </td>
-                <td class="skills-content">
-                  <div class="text-job">
-                    <div class="skill-title">_innovation</div>
-                    Building responsive and interactive websites using modern
-                    technologies like HTML, CSS, and JavaScript.
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="skills-content">
-                  <div class="text-job">
-                    <div class="skill-title">_excellence</div>
-                    Building responsive and interactive websites using modern
-                    technologies like HTML, CSS, and JavaScript.
-                  </div>
-                </td>
-                <td class="skills-content">
-                  <div class="text-job">
-                    <div class="skill-title">_problem solving</div>
-                    Building responsive and interactive websites using modern
-                    technologies like HTML, CSS, and JavaScript.
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </section>
-        </main>
-        <footer>
-          <nav>
-            <div class="logo">
-              <span>// Emmanuel</span>
-              <span class="second-logo">Frontend Dev</span>
-            </div>
-            <div class="social-links">
-              <a href="https://github.com" target="_blank">
-                <img src="/assets/images/github-icon.svg" alt="Github Logo" />
-              </a>
-              <a href="https://linkedin.com" target="_blank">
-                <img
-                  src="/assets/images/linkedin-icon.svg"
-                  alt="LinkedIn Logo"
-                />
-              </a>
-              <a href="https://medium.com" target="_blank">
-                <img src="/assets/images/medium-icon.svg" alt="Medium Logo" />
-              </a>
-            </div>
-            <ul class="footer-links">
-              <li><a href="index.html" class="active">_home</a></li>
-              <li><a href="/pages/about.html">_about</a></li>
-              <li><a href="/pages/projects.html">_projects</a></li>
-              <li><a href="/pages/services.html">_services</a></li>
-              <li><a href="/pages/resume.html">_resume</a></li>
-              <li><a href="/pages/contact.html">_contact</a></li>
-            </ul>
-          </nav>
-        </footer>
-      </div>
+      <main>
+        <section class="content section">
+          <h1>
+            <span class="txt-rotate text-aqua" data-period="1200" data-rotate='[ "&#123; _about &#125;" ]'></span>
+            <span class="slash">|</span>
+          </h1>
+          <p class="about-paragraph">
+            .....Hi, I'm Emmanuel, a passionate front-end developer with 2
+            years experience in building beautiful and functional websites and
+            frontend applications using modern frontend tools.
+          </p>
+          <!-- Skills -->
+          <span class="sub-title text-aqua">&lt; what drives my work &gt;</span>
+          <table>
+            <tr>
+              <td class="skills-content">
+                <div class="text-job">
+                  <div class="skill-title">_teamwork</div>
+                  Collaborative team player with strong interpersonal skills, adept at working together to achieve
+                  common goals and foster a positive work environment.
+                </div>
+              </td>
+              <td class="skills-content">
+                <div class="text-job">
+                  <div class="skill-title">_innovation</div>
+                  Creative thinker who embraces new ideas and technologies, driving innovation to improve processes and
+                  deliver cutting-edge solutions.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="skills-content">
+                <div class="text-job">
+                  <div class="skill-title">_excellence</div>
+                  Committed to excellence, consistently delivering high-quality work and striving for continuous
+                  improvement in all endeavors.
+                </div>
+              </td>
+              <td class="skills-content">
+                <div class="text-job">
+                  <div class="skill-title">_problem solving</div>
+                  Analytical problem solver with a methodical approach, skilled in identifying issues and implementing
+                  effective solutions.
+                </div>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <footer>
+        <nav>
+          <div class="logo">
+            <span>// Emmanuel</span>
+            <span class="second-logo">Frontend Dev</span>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank">
+              <img src="/assets/images/github-icon.svg" alt="Github Logo" />
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <img src="/assets/images/linkedin-icon.svg" alt="LinkedIn Logo" />
+            </a>
+            <a href="https://medium.com" target="_blank">
+              <img src="/assets/images/medium-icon.svg" alt="Medium Logo" />
+            </a>
+          </div>
+          <ul class="footer-links">
+            <li><a href="index.html" class="active">_home</a></li>
+            <li><a href="/pages/about.html">_about</a></li>
+            <li><a href="/pages/projects.html">_projects</a></li>
+            <li><a href="/pages/services.html">_services</a></li>
+            <li><a href="/pages/resume.html">_resume</a></li>
+            <li><a href="/pages/contact.html">_contact</a></li>
+          </ul>
+        </nav>
+      </footer>
     </div>
-    <script src="/scripts/pages.js"></script>
-  </body>
+  </div>
+  <script src="/scripts/pages.js"></script>
+</body>
+
 </html>
