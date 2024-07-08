@@ -7,7 +7,6 @@ Welcome to my portfolio repository! This project showcases my skills and project
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
 - [File Structure](#file-structure)
 - [Contact](#contact)
 - [License](#license)
@@ -30,6 +29,29 @@ Hello! I am Emmanuel Doji, a passionate Front-End Software Developer with over 7
 - **CSS3**: Styling language used for layout and design.
 - **JavaScript**: Programming language for interactive elements.
 - **Vercel**: Hosting service.
+
+## File Structure
+
+portfolio/
+├── assets/
+│   ├── images/
+│   └── ...
+├── pages/
+│   ├── about.html
+│   ├── contact.html
+│   ├── projects.html
+│   ├── resume.html
+│   └── services.html
+├── scripts/
+│   └── main.js
+├── styles/
+│   ├── main.css
+│   ├── reset.css
+│   ├── table.css
+│   └── pages.css
+├── index.html
+└── README.md
+
 
 ## Contact 
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through my contact information below, or through my social media channels.
